@@ -1,0 +1,31 @@
+{% extends './base.html' %}
+
+{% block title %}
+Profile
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid vh-100" style="margin-top:100px">
+        <div class="">
+            <div class="rounded d-flex justify-content-center">
+                <div class="col-md-4 col-sm-12 shadow-lg p-5 bg-light" style="width: auto">
+                    <div class="text-center">
+                        <h3 class="text-primary">Профиль</h3>
+                    </div>
+                    <div class="p-4">
+                        <form method="post">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <button
+                                    class="btn btn-primary btn-block text-white btn-user"
+                                    type="submit"
+                                    style="margin-left: 30%"
+                                    value="save">
+                                Заполнить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

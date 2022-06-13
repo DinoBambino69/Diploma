@@ -1,0 +1,32 @@
+"user_id",1
+"school","GP"
+"sex","M"
+"age",21
+"address","U"
+"famsize","GT3"
+"pstatus","A"
+"medu",3
+"fedu",2
+"mjob","На дому"
+"fjob","Другое"
+"reason","Репутация школы"
+"guardian","Отец"
+"traveltime",2
+"studytime",3
+"failures",10
+"schoolsup",False
+"famsup",True
+"paid",False
+"activities",False
+"nursery",True
+"higher",True
+"romantic",False
+"famrel",5
+"freetime",5
+"goout",5
+"dalc",1
+"walc",5
+"healh",5
+"absences",1
+"g1",17
+"g2",19
